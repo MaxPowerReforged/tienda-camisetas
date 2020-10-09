@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(221, 255, 247, 0.2);
+}
+
+.caja {
+    padding: 1%;
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fondo {
+    width: 350px;
+    height: 415px;
+    border-radius: 15px;
+    background-image: url(https://img.ltwebstatic.com/images3_pi/2020/03/12/1583997695405a90df827f6380659b52b5847149f9_thumbnail_405x552.jpg);
+    background-size: cover;
+}
+
+.nameProduct {
+    width: 350px;
+    height: 120px;
+    padding: 2%;
+    color: black;
+    font-weight: lighter;
+    background-color: rgba(239, 71, 111, 0.2);
+    border-radius: 15px;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+.comprar {
+    width: 200px;
+    height: 10px;
+    padding: 2%;
+    color: black;
+    background-color: rgba(38, 84, 124);
+    border-radius: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center; 
+}

@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(221, 255, 247, 0.2);
+}
+
+h1 {
+    padding: 2%;
+    border-radius: 15px;
+    max-width: 50%;
+    margin: 0;
+    border: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+    
+.caja {
+    display: inline-block;
+    margin:10px;
+}
+
+.fondo {
+    width: 300px;
+    height: 400px;
+    border-radius: 15px;
+    background-image: url(https://img.ltwebstatic.com/images3_pi/2020/03/12/1583997695405a90df827f6380659b52b5847149f9_thumbnail_405x552.jpg);
+    background-size: cover;
+}
+    
+.fondo:hover {
+    background-image: linear-gradient(to bottom,  rgba(38,84,124, 0.2), rgba(239, 71, 111, 0.2)), url(https://img.ltwebstatic.com/images3_pi/2020/03/12/1583997695405a90df827f6380659b52b5847149f9_thumbnail_405x552.jpg);
+}
+
+.nameProduct {
+    padding: 2%;
+    margin: 2%;
+    color: black;
+    font-weight: lighter;
+    background-color: rgba(239, 71, 111, 0.2);
+    border-radius: 15px;
+    font-family: 'Josefin Sans', sans-serif; 
+    text-align: left;
+}       
+    
